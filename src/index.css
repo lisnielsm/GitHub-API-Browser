@@ -1,0 +1,102 @@
+.repos-list {
+    padding-left : 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.files-list {
+    padding-left : 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.repos-list li,
+.files-list li {
+    list-style: none;
+}
+
+.repos-list li button,
+.files-list li button {
+    width     : auto;
+    color     : #FFF !important;
+    text-align: left;
+}
+
+.repos-list li button:hover,
+.repos-list li button:active,
+.files-list li button:hover,
+.files-list li button:active {
+    background-color: rgb(73, 142, 251);
+}
+
+.button-selected {
+    background-color: rgb(73, 142, 251) !important;
+}
+
+.div-main-file,
+.div-main-project,
+.div-main-code {
+    border       : 1px solid #FFF;
+    border-radius: 5px;
+    width        : 100%;
+}
+
+.div-main-file {
+    height     : 346px;
+    overflow   : auto;
+    white-space: nowrap;
+}
+
+.div-main-project {
+    height: 200px;
+}
+
+.div-main-code {
+    height: 616px;
+}
+
+.info-container,
+.code-container {
+    overflow  : auto;
+    height    : calc(100% - 41px);
+    text-align: left;
+    padding   : 1rem;
+}
+
+.info-container {
+    white-space: nowrap;
+}
+
+.code-container {
+    white-space: pre-wrap;
+}
+
+.title {
+    padding-top   : 0.25rem;
+    padding-bottom: 0.25rem;
+    border-bottom : 1px solid #FFF;
+    margin-bottom : 0.5rem;
+}
+
+.user-select {
+    max-width: 200px;
+}
+
+.footer {
+    color      : #FFF;
+    padding    : 0.5rem;
+    font-weight: bold;
+}
+
+.custom-alert {
+    width           : auto;
+    background-color: #dc3545;
+    border-color    : #dc3545;
+    padding         : 0.5rem 1rem;
+    margin-top      : 1rem;
+    border-radius   : 0.25rem;
+}
+
+.div-spinner {
+    position: absolute;
+    inset   : 0;
+    z-index : -1;
+}
